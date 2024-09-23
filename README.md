@@ -35,6 +35,7 @@ The API should now be running at http://localhost:5001.
 
 ## API Endpoints
 
+```
 **User Registration**: POST /api/register
 **User Login**: POST /api/auth/login
 **Create Contact**: POST /api/contacts
@@ -42,6 +43,7 @@ The API should now be running at http://localhost:5001.
 **Get Single Contact**: GET /api/contacts/:id
 **Edit Contact**: PUT /api/contacts/:id
 **Delete Contact**: DELETE /api/contacts/:id
+```
 
 ## Folder Structure
 
