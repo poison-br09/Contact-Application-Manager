@@ -46,6 +46,8 @@ The API should now be running at http://localhost:5001.
 ## Folder Structure
 
 The project structure is as follows:
+
+```
 .
 ├── model
 │ └── user.model.js # MongoDB user model
@@ -55,8 +57,9 @@ The project structure is as follows:
 │ └── contact.routes.js # Routes for contact management
 ├── middleware
 │ ├── errorHandler.middleware.js
-│ └── validateTokenHandler.middleware.js  
+│ └── validateTokenHandler.middleware.js
 ├── utils
 │ └── dbConnect.utils.js # MongoDB connection utility
 ├── constant.js # Contains error code
 └── server.js # Main Express server file
+```
